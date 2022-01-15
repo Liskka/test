@@ -21,4 +21,5 @@ console.log(!checkFalse && checkTrue);
 
 let twentyFive = prompt('Введи 25', '25') == '25' ? console.log('Молодец') : console.log('Нужно было ввести 25');
 
-console.log('git test');
+let test1;
+let test2;
