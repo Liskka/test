@@ -7,3 +7,14 @@ const isChecked = false,
 
 console.log(isChecked || !isClose);   //Оператор "!" оборачивает значение в противоположное (тру\фолс)
 
+let incr = 10,
+    decr = 10;
+/* incr++; 
+decr--;  */
+console.log(++incr);
+console.log(--decr);
+
+let checkTrue = true,
+    checkFalse = false;
+
+console.log(!checkFalse && checkTrue);
